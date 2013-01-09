@@ -26,6 +26,7 @@ function see($a,$b){
   echo "<br/>";
 }
 
+
 function process_form()
 {
  $_POST["areaA"];

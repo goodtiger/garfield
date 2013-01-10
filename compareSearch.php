@@ -15,6 +15,7 @@ function process($a,$b){
   $url="http://www.baidu.com/s?wd=$key";
   $lines_string=file_get_contents($url);
   eregi('百度一下，找到相关网页约(.*)篇，用时',$lines_string,$title);
+   echo"Hello";
   echo"[百度]$a $b:";
   //  echo substr("$title[0]",24,strlen($title[0])) ;
   echo "$title[0]";
